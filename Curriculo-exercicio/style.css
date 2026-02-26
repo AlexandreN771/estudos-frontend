@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --cor-primaria: #191265;
+    --cor-secundaria: #355c7d;
+    --fonte-principal: Poppins, sans-serif;
+}
+body{
+    background-color:#b3b318 ;
+    font-family: var(--fonte-principal);
+}
+hr{
+    height: 0.1rem;
+    background-color: #0b0b0b;
+}
+h1{
+color: var(--cor-primaria);
+}
+.curriculo-header{
+   padding-left: 0.6rem;
+   line-height: 1.2rem;
+   color: var(--cor-secundaria);
+}
+h2{
+    line-height: 1rem ;
+    padding-left: 0.6rem;
+    color: var(--cor-primaria);
+}
+h3{
+    line-height: 1rem;
+    color: var(--cor-primaria);
+}
+h4{
+    line-height: 0.6rem;
+    padding-left: 1rem;
+    color: var(--cor-secundaria);
+}
+p{
+    line-height: 1.2rem;
+    padding-left: 0.6rem;
+    color: #1E1E1E;
+}
+.curriculo-section{
+ line-height: 1.3rem;
+}
+.curriculo-fotter{
+    padding-left:0.6rem ;
+    line-height: 1.8rem;
+    color: #1e1e1e;
+    font-family: "poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+#nome{
+    background-color: #fffbfb;
+    border-color:var(--cor-secundaria);
+      border-radius: 1rem;
+    width: 10rem;
+    height: 1rem;
+    font-size: 0.874rem;
+    padding: 0.5rem;
+}
+#email{
+    background-color: #fffbfb;
+      border-radius: 1rem;
+    border-color: var(--cor-secundaria);
+    width: 15rem;
+    height: 1rem;
+    font-size: 0.874rem;
+    padding: 0.5rem;
+}
+#mensagem{
+     background-color: #fffbfb;
+      border-radius: 1rem;
+    border-color: var(--cor-secundaria);
+        width: 18rem;
+    height: 5rem;
+    font-size: 0.875rem;
+    padding: 0.5rem;
+}
+button{
+    cursor: pointer;
+}
