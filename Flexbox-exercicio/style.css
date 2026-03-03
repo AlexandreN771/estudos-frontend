@@ -54,11 +54,6 @@ img{
     border: 1px solid;
     border-radius: 3px;
 }
-.img{
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-}
 h2{
     margin: 0;
     padding: 0.5rem;
@@ -73,4 +68,24 @@ h3{
 .paragrafo{
     padding: 0.5rem;
     color: var(--cor-terciaria)
+}
+@media (max-width: 768px){
+    nav{
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+    button{
+        align-self: flex-start;
+    }
+   
+    section{flex-direction: column;
+    }
+    .card{
+        box-sizing: content-box;
+        width: 50%;
+        align-self: flex-start;
+    }
+    img{
+        max-width: 50%;
+    }
 }
