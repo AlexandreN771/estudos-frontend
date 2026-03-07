@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+:root{
+    --cor-primaria: #006DFF;
+    --cor-secudaria: #EBA400;
+}
+body{
+    background-color:#F5FAF7;
+    font-family: "Nunito", sans-serif;
+}
+hr{
+    background-color: var(--cor-secudaria);
+    height: 0.3rem;
+    border-radius: 0.5rem;
+    line-height:0.1rem;
+}
+form{
+    line-height: 2.8rem;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    line-height: 0.5rem;
+    color: var(--cor-primaria);
+}
+input:focus{
+  font-weight: bold;
+  border-color: var(--cor-primaria);
+}
+#username{
+    padding: 0.5rem;
+    border-color: var(--cor-secudaria);
+}
+#email{
+    padding: 0.5rem;
+    border-color: var(--cor-secudaria);
+}
+#password{
+    padding: 0.5rem;
+    border-color: var(--cor-secudaria);
+}
+#story{
+    border-color: var(--cor-secudaria);
+    padding: 0.5rem;
+}
+select{
+     border-radius: 0.5rem;
+    border-color: var(--cor-secudaria);
+    padding: 0.5rem;
+}
+button{
+    cursor: pointer;
+border-radius: 0.5rem;
+border-color: var(--cor-secudaria);
+padding: 0.7rem;
+}
+button:hover{
+    background-color: var(--cor-primaria)
+}
+p{
+    line-height: 0.1rem;
+}
+@media (max-width: 768px){
+    h1{
+        display: flex;
+        justify-content: flex-start;
+    }
+    #username{
+        padding: 0.1rem; 
+    }
+    #email{
+        padding: 0.1rem;
+    }
+    #password{
+        padding: 0.1rem;
+    }
+    select{
+        padding: 0.1rem;
+    }
+    #story{
+        padding: 0.1rem;
+    }
+}

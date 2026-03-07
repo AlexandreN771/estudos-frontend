@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <form>
+    <h1>Conecte-se</h1>
+    <hr />
+    <label for="username">Usuário:</label>
+    <input type="text" id="username" name="usuário" required
+    size="12"/> <br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" size="30" required/><br>
+    <label for="password">Senha  (minímo de 8 caracteres):</label>
+    <input type="password" id="password" name="senha" minlength="8" required/><br>
+   <div>
+    <label>Onde encontrou nosso site?
+    <select name="pesquisa">
+        <option value="valor1">Vim pelo Instagram</option>
+        <option value="valor2">Vim pelo Youtube</option>
+        <option value="valor3">Vim pelo Linkendin</option>
+    </select></label><br>
+    <label for="story">Diga-nos um pouco sobre você:</label><br>
+    <textarea id="story" name="story" rows="5" cols="33"></textarea><br>
+    <p>Ao enviar você concorda como nosso termos - <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">termos e condições</a></p>
+    <button type="button">Enviar</button>
+    </form>
+</body>
+</html>
